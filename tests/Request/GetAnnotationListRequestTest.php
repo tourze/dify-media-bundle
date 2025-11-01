@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tourze\DifyMediaBundle\Tests\Request;
 
+use HttpClientBundle\Test\RequestTestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
-use HttpClientBundle\Tests\Request\RequestTestCase;
 use Tourze\DifyMediaBundle\Request\GetAnnotationListRequest;
 
 /**
